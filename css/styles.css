@@ -6,12 +6,12 @@
 }
 
 
-/* debug height and color bg */
+/* debug height and colors */
 .blue {
   background-color: #2c3e50;
 }
 
-.jumbo {
+.green {
   background-color: #1abc9c;
   height: 500px;
 }
@@ -22,10 +22,14 @@
   margin: 20px 0px;
 }
 
-/* .mt-20 {
-  margin-top: 20px;
+.text-white {
+  color: white;
 }
-.mb-20 {
-  margin
-} */
-/* colonne */
+
+.text-blue {
+  color: #2c3e50;
+}
+
+.opac-07 {
+  opacity: 0.7;
+}
