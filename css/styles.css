@@ -37,10 +37,24 @@ header .navbar .navbar-right a:hover {
 
 /* navbar md */
 @media screen and (max-width:992px)  {
-  header .navbar .navbar-brand {
-    padding: 0px 20px;
+  header .navbar-header {
+    padding: 0px 30px;
+  }
+  header .collapsed {
+    margin-top: 20px;
+  }
+  header .collapsed:hover {
+    margin-top: 20px;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .navbar-default .navbar-toggle:hover {
+    background-color: #1abc9c;
   }
 }
+
+
 /* typing */
 .navbar-header a  {
   font-size: 25px;
