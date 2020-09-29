@@ -120,5 +120,8 @@ header .navbar .navbar-right a:hover {
 
 .jumbo .line {
   background-color: white;
-  height: 2px;
+  height: 4px;
+  border-radius: 3px;
+  position: relative;
+  margin-top: 13px;
 }
