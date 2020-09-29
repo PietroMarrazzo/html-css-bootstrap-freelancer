@@ -131,7 +131,7 @@ header .navbar .navbar-right a:hover {
 }
 
 .contact .line-icon {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .contact .icon-star i {
@@ -149,33 +149,46 @@ header .navbar .navbar-right a:hover {
 
 
 /* form contact */
-.register-form {
-  margin: 30px 0px;
-}
-
 .register-form .form-group {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .register-form label {
   color: #2c3e50;
-  opacity: 0.6;
+  opacity: 0;
 }
 
 .form-group input[type="username"],
 .form-group input[type="email"],
 .form-group input[type="phone-numb"],
 .form-group textarea {
+  font-size: 20px;
   border: 0;
-  border-radius: none;
-  border-bottom: 1px solid gray;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c8c8c8;
+  padding:0;
 }
+
+.form-group input[type="username"],
+.form-group input[type="email"],
+.form-group input[type="phone-numb"] {
+  height: 60px;
+  line-height: 60px;
+  padding: 0;
+}
+
+.form-group textarea {
+  margin-top: 50px;
+}
+
+
 
 .register-form .form-control::placeholder {
   color: #2c3e50;
-  opacity: 0.6;
+  opacity: 0.7;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 
