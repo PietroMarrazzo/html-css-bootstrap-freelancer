@@ -1,9 +1,62 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
-} */
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADER */
+/* navbar */
+header > .navbar {
+  margin-bottom: 0px;
+  border: none;
+}
+
+header .navbar .navbar-brand {
+  height: 80px;
+  line-height: 80px;
+  padding: 0px;
+  color: white;
+}
+
+header .navbar .navbar-brand:hover {
+  color: white;
+}
+
+header .navbar .navbar-right a {
+  height: 80px;
+  line-height: 80px;
+  padding: 0px 20px;
+  color: white
+}
+
+header .navbar .navbar-right a:hover {
+  color:#1abc9c;
+}
+
+/* navbar md */
+@media screen and (max-width:992px)  {
+  header .navbar .navbar-brand {
+    padding: 0px 20px;
+  }
+}
+/* typing */
+.navbar-header a  {
+  font-size: 25px;
+}
+
+.navbar-right a  {
+  font-size: 16px;
+}
+
+header > .navbar a,
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
 
 
 /* debug height and colors */
