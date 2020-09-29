@@ -33,7 +33,7 @@
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact-me">Contact</a>
               </li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -165,7 +165,7 @@
       </section>
       <!-- sezione contact main -->
       <section class="text-blue">
-        <div class="contact container text-center">
+        <div id="contact-me" class="contact container text-center">
             <div class="row">
               <div class="col-xs-12 col-text">
                 <h1 class="text-blue">Contact me
@@ -185,26 +185,25 @@
                 </div>
               </div>
             </div>
-          <form>
+          <form class="form-contact">
             <div class="form-group">
-              <label for="exampleInputEmail1">Name
+              <label for="Username">
               </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              <input type="username" class="form-control" id="Username" placeholder="Name">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Email address
+              <label for="email">
               </label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input type="email" class="form-control" id="email" placeholder="Indirizzo e-mail">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Phone Number
+              <label for="phone-numb">
               </label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input type="phone-numb" class="form-control" id="phone-numb" placeholder="Numero di telefono">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Message
-              </label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Messaggio">
+              </textarea>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>

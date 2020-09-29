@@ -123,7 +123,7 @@ header .navbar .navbar-right a:hover {
 
 /* salto al contact */
 .contact form {
-  padding: 0px 200px;
+  padding: 0px 100px;
 }
 
 .contact .col-text {
@@ -148,6 +148,30 @@ header .navbar .navbar-right a:hover {
 }
 
 /* form contact */
+.form-contact .form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  color: #2c3e50;
+  opacity: 0.6;
+}
+
+.form-group .form-control::placeholder {
+  color: #2c3e50;
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-group input [type="username"],
+.form-group input [type="email"],
+.form-group input [type="phone-numb"],
+.form-group textarea {
+
+}
+
+
 
 
 
@@ -176,10 +200,13 @@ header .navbar .navbar-right a:hover {
   .navbar-default .navbar-toggle:hover {
     background-color: #1abc9c;
   }
+
 }
 
 
 /* media query 1200+ */
-@media screen and (max-width:1200px) {
-
+@media screen and (min-width:1200px) {
+  .contact form {
+    padding: 0px 200px;
+  }
 }
