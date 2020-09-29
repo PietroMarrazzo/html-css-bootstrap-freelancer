@@ -5,6 +5,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
 /* utilities and color */
 .blue {
   background-color: #2c3e50;
@@ -81,8 +82,85 @@ header .navbar .navbar-right a:hover {
   color:#1abc9c;
 }
 
-/* navbar <992 */
+
+
+
+/* jumbo header */
+.jumbo-img {
+  margin-top: 80px;
+}
+
+.jumbo-img img {
+  height: 250px;
+}
+
+.jumbo h1 {
+  font-size: 50px;
+}
+
+.icon-star i {
+  font-size: 30px;
+}
+
+.line {
+  background-color: white;
+  height: 4px;
+  border-radius: 3px;
+  position: relative;
+  margin-top: 13px;
+}
+
+.jumbo .line .line-left {
+  margin-right: 10px;
+}
+
+.jumbo .line .line-right {
+  margin-left: 10px;
+}
+
+
+
+
+/* salto al contact */
+.contact form {
+  padding: 0px 200px;
+}
+
+.contact .col-text {
+  padding-top: 40px;
+}
+
+.contact .line-icon {
+  padding-bottom: 60px;
+}
+
+.contact .icon-star i {
+  font-size: 30px;
+  color: #2c3e50;
+}
+
+.contact .line {
+  background-color: #2c3e50;
+  height: 4px;
+  border-radius: 3px;
+  position: relative;
+  margin-top: 13px;
+}
+
+/* form contact */
+
+
+
+
+/* contact <md (<767px)*/
+@media screen and (max-width:767px) {
+
+}
+
+
+/* media query <992 */
 @media screen and (max-width:992px)  {
+  /* HEADER */
   header .navbar-header {
     padding: 0px 30px;
   }
@@ -101,27 +179,7 @@ header .navbar .navbar-right a:hover {
 }
 
 
-/* jumbo header */
-.jumbo-img {
-  margin-top: 80px;
-}
+/* media query 1200+ */
+@media screen and (max-width:1200px) {
 
-.jumbo-img img {
-  height: 250px;
-}
-
-.jumbo h1 {
-  font-size: 50px;
-}
-
-.jumbo .icon-star i {
-  font-size: 30px;
-}
-
-.jumbo .line {
-  background-color: white;
-  height: 4px;
-  border-radius: 3px;
-  position: relative;
-  margin-top: 13px;
 }
