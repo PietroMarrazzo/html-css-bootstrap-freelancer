@@ -203,8 +203,14 @@ header .navbar .navbar-right a:hover {
   padding: 20px 30px;
   font-weight: 500;
   font-size: 16px;
+  transition: background-color .5s;
 }
 
+.register-form .btn:hover {
+  background-color: #16a286;
+  border-color: #16a286;
+
+}
 /* contact <md (<767px)*/
 @media screen and (max-width:767px) {
 
