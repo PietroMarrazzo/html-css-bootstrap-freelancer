@@ -26,12 +26,6 @@ section {
   background-color: #1abc9c;
 }
 
-/* .box {
-  height: 60px;
-  background-color: #1abc9c;
-  margin: 20px 0px;
-} */
-
 .text-white {
   color: white;
 }
@@ -43,6 +37,39 @@ section {
 .opac-07 {
   opacity: 0.7;
 }
+
+.icon-line {
+  width: 400px;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.icon-star {
+  padding: 0px 5px;
+}
+
+.icon-line i {
+  width: 20%;
+  font-size: 50px;
+}
+
+.line {
+  display: inline-block;
+  width: 30%;
+  background-color: white;
+  height: 4px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.line-blue {
+  background-color: #2c3e50;
+}
+
+.star-blue {
+  color: #2c3e50;
+}
+
 
 /* typing */
 .navbar-header a  {
@@ -111,7 +138,6 @@ header .navbar .navbar-right a:hover {
 
 
 
-
 /* jumbo header */
 .jumbo-img {
   margin-top: 40px;
@@ -119,30 +145,6 @@ header .navbar .navbar-right a:hover {
 
 .jumbo-img img {
   height: 250px;
-}
-
-.jumbo .icon-line {
-  width: 400px;
-  max-width: 100%;
-  margin: 10px auto;
-}
-
-.jumbo .icon-star {
-  padding: 0px 5px;
-}
-
-.icon-line i {
-  width: 20%;
-  font-size: 50px;
-}
-
-.line {
-  display: inline-block;
-  width: 30%;
-  background-color: white;
-  height: 4px;
-  border-radius: 3px;
-  margin-bottom: 15px;
 }
 
 .jumbo h3 {
@@ -154,11 +156,12 @@ header .navbar .navbar-right a:hover {
 
 /* MAIN */
 /* portfolio */
-/* .portfolio .line-icon {
+
+/* .portfolio .icon-line {
   padding-bottom: 40px;
 }
 
-.portfolio .icon-star i {
+.portfolio i {
   font-size: 30px;
   color: #2c3e50;
 }
