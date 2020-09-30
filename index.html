@@ -12,19 +12,22 @@
 
     <!-- HEADER -->
     <header>
-      <nav class="navbar navbar-default blue text-white">
-        <div class="container container-fluid">
-
-          <!--  -->
+      <nav class="navbar navbar-default blue text-white navbar-fixed-top">
+        <!-- container centrato navbar -->
+        <div class="container">
+          <!-- nav-bar -->
           <div class="navbar-header">
+            <!-- hamburger -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <!-- logo -->
             <a class="navbar-brand" href="#">Start Bootstrap</a>
           </div>
+
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#portfolio">Portfolio</a>
@@ -37,7 +40,7 @@
               </li>
             </ul>
           </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        </div><!-- /.container -->
       </nav>
       <!-- sezione header top -->
       <!-- <section class="background blue">
@@ -76,6 +79,10 @@
 
                 </div>
               </div>
+              <div class="col-xs-12">
+                <h3>Graphic Artist - Web Designer - Illustrator
+                </h3>
+              </div>
           </div>
             <!-- <div class="line-box col-xs-2 col-xs-offset-2">
               <div class="line">
@@ -101,39 +108,33 @@
       <section class="portfolio">
         <div class="container text-center">
           <div class="row">
-            <div class="col-xs-12">
-              portfolio
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="text-blue">Portfolio
+              </h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="box">
-                box1
+            <div class="line-icon col-xs-4 col-xs-offset-4">
+              <div class="line col-xs-4">
+
+              </div>
+              <div class="icon-star col-xs-4">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="line col-xs-4">
+
               </div>
             </div>
+          </div>
+
+          <!-- griglia immagini -->
+          <div class="row">
             <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="box">
-                box2
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="box">
-                box3
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="box">
-                box4
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="box">
-                box5
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="box">
-                box6
+              <div class="box-img">
+                <div class="layover-plus">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="./img/cabin.png" alt="">
               </div>
             </div>
           </div>
@@ -141,23 +142,43 @@
       </section>
       <!-- sezione about main -->
       <section class="about green">
-        <div class="container text-white">
+        <div class="container text-white text-center">
+          <div class="row">
+            <h2>About
+            </h2>
+          </div>
           <div class="row">
             <div class="col-xs-12 text-center">
-              about
+              <div class="line-icon col-xs-4 col-xs-offset-4">
+                <div class="line col-xs-4">
+
+                </div>
+                <div class="icon-star col-xs-4">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="line col-xs-4">
+
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-md-6  col-sx">
-              <div class="col-xs-12 col-md-9 col-md-offset-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <p class="text-left left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                  </p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <p class="right text-left">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-dx">
-              <div class="col-xs-12 col-md-9">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+              <div class="row">
+                <div class="box-btn col-xs-12">
+                  <button type="button" class="btn btn-default"><i class="fa fa-download" aria-hidden="true"></i>
+                    Free Download</button>
+                </div>
               </div>
             </div>
           </div>
@@ -167,12 +188,12 @@
       <section class="text-blue">
         <div id="contact-me" class="contact container text-center">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 col-text">
-                <h1 class="text-blue">Contact me
-                </h1>
+              <div class="col-md-8 col-md-offset-2">
+                <h2 class="text-blue">Contact me
+                </h2>
               </div>
             </div>
-            <div class="row text-contact">
+            <div class="row">
               <div class="line-icon col-xs-4 col-xs-offset-4">
                 <div class="line col-xs-4 blue">
 
@@ -225,14 +246,44 @@
       <section class="info blue">
         <div class="container text-white">
           <div class="row text-center">
-            <div class="col-xs-12 col-md-4">
-              infobox
+            <div class="col-xs-12 col-md-4 infobox-sx">
+              <h3>Location
+              </h3>
+              <p>2215 John Daniel Drive <br>
+                Clark, MO 65243
+              </p>
             </div>
-            <div class="col-xs-12 col-md-4">
-              infobox
+            <div class="col-xs-12 col-md-4 infobox-center">
+              <h3>Around the web
+              </h3>
+              <ul class="social-list list-inline">
+                <li>
+                  <a href="www.facebook.com">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="www.facebook.com">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="www.facebook.com">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="www.facebook.com">
+                    <i class="fab fa-dribbble"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="col-xs-12 col-md-4">
-              infobox
+            <div class="col-xs-12 col-md-4 infobox-dx">
+              <h3>About freelancer
+              </h3>
+              <p>Freelance is a free to use, MIT licensed Bootstrap  theme created by <a href="#">Start Bootstrap</a>.
             </div>
           </div>
         </div>
