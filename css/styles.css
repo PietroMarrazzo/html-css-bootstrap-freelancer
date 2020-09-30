@@ -121,19 +121,28 @@ header .navbar .navbar-right a:hover {
   height: 250px;
 }
 
+.jumbo .icon-line {
+  width: 400px;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
 .jumbo .icon-star {
   padding: 0px 5px;
 }
 
-.icon-star i {
-  font-size: 30px;
+.icon-line i {
+  width: 20%;
+  font-size: 50px;
 }
 
 .line {
+  display: inline-block;
+  width: 30%;
   background-color: white;
   height: 4px;
   border-radius: 3px;
-  margin-top: 13px;
+  margin-bottom: 15px;
 }
 
 .jumbo h3 {
@@ -145,7 +154,7 @@ header .navbar .navbar-right a:hover {
 
 /* MAIN */
 /* portfolio */
-.portfolio .line-icon {
+/* .portfolio .line-icon {
   padding-bottom: 40px;
 }
 
@@ -159,7 +168,7 @@ header .navbar .navbar-right a:hover {
   height: 4px;
   border-radius: 3px;
   margin-top: 13px;
-}
+} */
 
 /* immagini portfolio */
 .portfolio .box-img {
